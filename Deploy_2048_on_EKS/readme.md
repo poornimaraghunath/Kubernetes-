@@ -18,4 +18,4 @@ In data plane two type of resources can be used that is
      2. Nodeport  - In these applications can be accessed only at node level
      3. loadbalancer - In these applications can be acecssed from outside but we need to provide elastic ip address for all the resources which will cost more in order to avoid that will use the ingress method
 
-     For that we need to deploy ingress controller in the cluster all the loadbalancers like nginx ,F5 they have there own ingress controllers as soons as ingress resource is deployed they will create ALB environment in public subnet which will allow the users to access the application
+     For that we need to deploy ingress controller in the cluster all the loadbalancers like nginx ,F5 they have there own ingress controllers as soons as ingress resource is deployed they will create ALB environment in public subnet which will allow the users to access the application.
